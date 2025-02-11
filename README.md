@@ -25,7 +25,7 @@ This project explores the application of diffusion models to generate high-quali
 ├── metrics/                     # Evaluation metrics implementation
 ├── utils/                      # Shared utility functions
 ├── gradio_ui/                  # Interactive web interface
-└── data/                       # Data storage and management
+└── data/                       # Data storage 
 ```
 
 ## 🛠️ Setup and Installation
@@ -60,20 +60,15 @@ poetry install
 - Text corpus creation for remote sensing
 - Training scripts for language model fine-tuning
 - Text generation utilities
-- Model parameters:
-  - Block size: 256
-  - Context length: 512
-  - Learning rate: 2e-5
-  - Weight decay: 0.01
 
 ### 3. Inference
 - Model serving infrastructure
 
 ### 4. Evaluation
-- FID score calculation (Sample size: 100)
+- FID score calculation
 
 ### 5. Downstream Evaluation Configuration
-- Batch size: 8
+- Batch size: 16
 - Learning rate: 0.001
 - Maximum epochs: 35
 - Image size: 512x512
