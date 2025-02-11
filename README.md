@@ -34,7 +34,7 @@ This project explores the application of diffusion models to generate high-quali
 - Python 3.9 or higher
 - Poetry for dependency management
 - Replace the constants.py file with your own values
-- Download the RSICD dataset from [here](https://rsicd.github.io/rsicd-dataset/) and save the parquet file in the data/RSICD/ directory
+- Download the RSICD dataset from [here](https://github.com/201528014227051/RSICD_optimal) and save the parquet file in the data/RSICD/ directory
 
 ### Installation Steps
 
